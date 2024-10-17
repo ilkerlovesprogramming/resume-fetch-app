@@ -1,0 +1,1436 @@
+.profile-preview-page,
+.profile-preview-page * {
+  box-sizing: border-box;
+}
+.profile-preview-page {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.header {
+  border-style: solid;
+  border-color: #e5e8eb;
+  border-width: 0px 0px 1px 0px;
+  padding: 12px 40px 12px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo {
+  flex: 1;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.vector-0 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.depth-6-frame-0 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.re-folio {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex: 1;
+  position: relative;
+}
+.link-area {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+}
+.explore {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.explore2 {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.auth-area {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.login-area {
+  background: #2194f2;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 84px;
+  height: 40px;
+  min-width: 84px;
+  max-width: 480px;
+  position: relative;
+  overflow: hidden;
+}
+.login-button {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.log-in {
+  color: #f7fafc;
+  text-align: center;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.signup-area {
+  background: #e8edf5;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 40px;
+  min-width: 84px;
+  max-width: 480px;
+  position: relative;
+  overflow: hidden;
+}
+.signup-button {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.sign-up {
+  color: #0d141c;
+  text-align: center;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.body {
+  background: #f7fafc;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  min-height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.body2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1059px;
+  position: relative;
+}
+.body-wrapper {
+  padding: 20px 160px 20px 160px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1492px;
+  position: relative;
+}
+.center-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  height: 1295px;
+  max-width: 960px;
+  position: relative;
+  overflow: hidden;
+}
+.profile {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.header2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  position: relative;
+}
+.profile-area {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 128px;
+  height: 128px;
+  position: relative;
+}
+.image-component {
+  border-radius: 64px;
+  width: 128px;
+  height: 128px;
+  min-height: 128px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.profile-photo {
+  width: 162px;
+  height: 144px;
+  position: absolute;
+  left: -17px;
+  top: -8px;
+  object-fit: cover;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 128px;
+  position: relative;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 301px;
+  height: 28px;
+  position: relative;
+}
+.ilker-ozturk {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.full-stack-web-app-developer {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.markham-on-canada {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.private-button {
+  background: #e8edf5;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 40px;
+  min-width: 84px;
+  max-width: 480px;
+  position: relative;
+  overflow: hidden;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.text {
+  color: #0d141c;
+  text-align: center;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1px;
+  position: relative;
+}
+.experience-title {
+  padding: 20px 16px 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text2 {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.experience-grid-1 {
+  background: #f7fafc;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 72px;
+  min-height: 72px;
+  position: relative;
+}
+.info2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.default-logo {
+  background: #e8edf5;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.logo2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.vector-02 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.depth-8-frame-0 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.info3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.header3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.senior-product-designer {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.sub {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 183px;
+  position: relative;
+  overflow: hidden;
+}
+._2019-present-3-years {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.private-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.edit {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.edit2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.experience-grid-2 {
+  background: #f7fafc;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.info4 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.vector-03 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.info5 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.header4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-designer {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.sub2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._2017-2019-2-years-on-canada {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.private-link2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 66px;
+  position: relative;
+}
+.edit3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.education-title {
+  padding: 20px 16px 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.education {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.education-grid-1 {
+  background: #f7fafc;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 72px;
+  min-height: 72px;
+  position: relative;
+}
+.default-school-logo {
+  background: #e8edf5;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.vector-04 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.depth-8-frame-02 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 24px;
+  height: 21px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.humber-college {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+
+.projects-title {
+    margin: 2rem 0; /* Space above and below */
+}
+
+.projects {
+    font-size: 2rem; /* Title font size */
+    font-weight: bold; /* Title weight */
+    color: #333; /* Main color */
+}
+
+.project-grid-1 {
+    display: flex; /* Adjust layout as needed */
+    justify-content: space-between; /* Space out the elements */
+    align-items: center; /* Center align items */
+    margin-bottom: 1rem; /* Space between project entries */
+    padding: 1rem; /* Padding for content */
+    border: 1px solid #ddd; /* Optional border for separation */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Background color */
+}
+
+.info2 {
+    display: flex; /* Adjust layout as needed */
+    align-items: center; /* Center align items vertically */
+}
+
+.default-logo {
+    margin-right: 1rem; /* Space between logo and text */
+}
+
+.info3 {
+    display: flex;
+    flex-direction: column; /* Stack title and description */
+}
+
+.header3 {
+    font-size: 1.5rem; /* Project title size */
+    font-weight: bold; /* Make it stand out */
+    color: #333; /* Title color */
+}
+
+.sub3 {
+    font-size: 1rem; /* Description font size */
+    color: #555; /* Description color */
+}
+
+.date {
+    font-size: 0.9rem; /* Date font size */
+    color: #777; /* Date color */
+}
+
+.private-link {
+    display: flex; /* Align edit button */
+    align-items: center;
+}
+
+.edit {
+    cursor: pointer; /* Pointer for edit */
+}
+
+.edit2 {
+    font-size: 0.9rem; /* Edit button text size */
+    color: #007bff; /* Edit button color */
+}
+
+.sub3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 162px;
+  position: relative;
+  overflow: hidden;
+}
+._2024-present {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.certification-grid-1 {
+  background: #f7fafc;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 72px;
+  min-height: 72px;
+  position: relative;
+}
+.default-certification-logo {
+  background: #e8edf5;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.vector-05 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.depth-8-frame-03 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 21px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header5 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 181px;
+  position: relative;
+  overflow: hidden;
+}
+.postman-student-expert {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  width: 197px;
+}
+.sub4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.october-2017 {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.depth-6-frame-02 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.skills-title {
+  padding: 20px 16px 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.skills {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.skills-list {
+  padding: 12px 16px 12px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.list-1 {
+  background: #e8edf5;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 32px;
+  position: relative;
+}
+.text3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.user-research {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.list-2 {
+  background: #e8edf5;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 32px;
+  position: relative;
+}
+.ui-design {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.list-3 {
+  background: #e8edf5;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 32px;
+  position: relative;
+}
+.product-design {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: relative;
+  width: 108px;
+}
+.list-32 {
+  background: #b5e2eb;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 32px;
+  position: relative;
+}
+.projects-title {
+  padding: 20px 16px 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.projects {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.project-grid-1 {
+  background: #f7fafc;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 72px;
+  min-height: 72px;
+  position: relative;
+}
+.depth-7-frame-0 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.vector-06 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.re-folio2 {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.sub5 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 134px;
+  position: relative;
+  overflow: hidden;
+}
+.contact-title {
+  padding: 20px 16px 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.contact-grid-1 {
+  background: #f7fafc;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 72px;
+  min-height: 72px;
+  position: relative;
+}
+.default-email-logo {
+  background: #e8edf5;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.vector-07 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.depth-7-frame-02 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header6 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 125px;
+  position: relative;
+  overflow: hidden;
+}
+.email {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.contact-theilker-com {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.contact-grid-2 {
+  background: #f7fafc;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 72px;
+  min-height: 72px;
+  position: relative;
+}
+.default-linked-in-logo {
+  background: #e8edf5;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.vector-08 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.depth-7-frame-03 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header7 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 184px;
+  position: relative;
+  overflow: hidden;
+}
+.linked-in {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.linkedin-com-in-ilkeroztbm {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.get-started {
+  padding: 80px 40px 80px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.text4 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 1190px;
+  position: relative;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 720px;
+  max-width: 720px;
+  position: relative;
+}
+.would-like-to-try-once {
+  color: #0d141c;
+  text-align: center;
+  font-family: "Manrope-ExtraBold", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  position: relative;
+  width: 724px;
+  height: 51px;
+}
+.button-area {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.button-context {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  background: #2194f2;
+  border-radius: 12px;
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 48px;
+  min-width: 84px;
+  max-width: 480px;
+  position: relative;
+  overflow: hidden;
+}
+.text5 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.create-a-free-profile {
+  color: #f7fafc;
+  text-align: center;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

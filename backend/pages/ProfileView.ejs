@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/ProfileView/vars.css">
+  <link rel="stylesheet" href="/ProfileView/style.css">
+  <link rel="stylesheet" href="/HomePageDesign/style.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
+  <title><%= title %></title>
+</head>
+<body>
+  <div class="profile-preview-page">
+    <div class="header">
+      <div class="brand">
+        <div class="logo-area">
+          <div class="logo">
+            <img class="vector-0" src="/ProfileView/vector-00.svg" />
+            <div class="depth-6-frame-0"></div>
+          </div>
+        </div>
+        <div class="text-area">
+          <div class="re-folio">ReFolio</div>
+        </div>
+      </div>
+      <div class="nav-bar">
+        <div class="link-area">
+          <div class="explore">
+            <div class="explore2">Explore</div>
+          </div>
+        </div>
+        <div class="auth-area">
+          <% if (!user.isAuthenticated) { %>
+            <button class="login-button">
+                Log in
+              </button>
+              <button class="signup-button">
+                Sign up
+              </button>
+          <% } else { %>
+            <div class="welcome">Welcome, <%= user.name %></div>
+            <div class="logout-area">
+              <div class="logout-button">
+                <div class="log-out">Log out</div>
+              </div>
+            </div>
+          <% } %>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="body2">
+        <div class="body-wrapper">
+          <div class="center-wrapper">
+            <div class="profile">
+              <div class="header2">
+                <div class="profile-area">
+                  <div class="avatar">
+                    <div
+                      class="image-component"
+                      style="background: url(<%= user.avatarUrl || '/ProfileView/image-component0.png' %>) center; background-size: cover; background-repeat: no-repeat;"
+                    >
+                      <img class="profile-photo" src="<%= user.profilePhoto || '/ProfileView/profile-photo0.png' %>" />
+                    </div>
+                  </div>
+                  <div class="info">
+                    <div class="name">
+                      <div class="ilker-ozturk"><%= user.info.name || 'User Name' %></div>
+                    </div>
+                    <div class="title">
+                      <div class="full-stack-web-app-developer">
+                        <%= user.info.title || '' %>
+                      </div>
+                    </div>
+                    <div class="address">
+                      <div class="markham-on-canada"><%= user.info.location || '' %></div>
+                    </div>
+                  </div>
+                </div>
+                <% if (!noEditButton) { %>
+                    <div class="private-link">
+                      <div class="edit">
+                        <div class="edit2">Edit</div>
+                      </div>
+                    </div>
+                  <% } %>
+              </div>
+            </div>
+            <div class="banner"></div>
+
+            <% if (experiences.length > 0) { %>
+                <div class="education-title">
+                    <div class="education">Experiences</div>
+                  </div>
+              <% experiences.forEach(experience => { %>
+                <div class="experience-grid-1">
+                  <div class="info2">
+                    <div class="default-logo">
+                      <div class="logo2">
+                        <img class="vector-02" src="/ProfileView/vector-01.svg" />
+                        <div class="depth-8-frame-0"></div>
+                      </div>
+                    </div>
+                    <div class="info3">
+                      <div class="header3">
+                        <div class="senior-product-designer"><%= experience.title %></div>
+                      </div>
+                      <div class="sub">
+                        <div class="_2019-present-3-years"><%= experience.dates %></div>
+                      </div>
+                    </div>
+                  </div>
+                  <% if (!noEditButton) { %>
+                    <div class="private-link">
+                      <div class="edit">
+                        <div class="edit2">Edit</div>
+                      </div>
+                    </div>
+                  <% } %>
+                </div>
+              <% }) %>
+            <% } %>
+
+            <% if (education.length > 0) { %>
+              <div class="education-title">
+                <div class="education">Education</div>
+              </div>
+              <% education.forEach(edu => { %>
+                <div class="education-grid-1">
+                  <div class="info2">
+                    <div class="default-school-logo">
+                      <div class="logo2">
+                        <img class="vector-04" src="/ProfileView/vector-03.svg" />
+                        <div class="depth-8-frame-02"></div>
+                      </div>
+                    </div>
+                    <div class="info3">
+                      <div class="header3">
+                        <div class="humber-college"><%= edu.institution %></div>
+                      </div>
+                      <div class="sub3">
+                        <div class="_2024-present"><%= edu.dates %></div>
+                      </div>
+                    </div>
+                  </div>
+                  <% if (!noEditButton) { %>
+                    <div class="private-link">
+                      <div class="edit">
+                        <div class="edit2">Edit</div>
+                      </div>
+                    </div>
+                  <% } %>
+                </div>
+              <% }) %>
+            <% } %>
+
+            <% if (certifications.length > 0) { %>
+                <div class="education-title">
+                  <div class="education">Certifications</div>
+                </div>
+                <% certifications.forEach(cert => { %>
+                  <div class="certification-grid-1">
+                    <div class="info2">
+                      <div class="default-certification-logo">
+                        <div class="logo2">
+                          <img class="vector-05" src="/ProfileView/vector-04.svg" />
+                          <div class="depth-8-frame-03"></div>
+                        </div>
+                      </div>
+                      <div class="info3">
+                        <div class="header5">
+                          <div class="postman-student-expert"><%= cert.title %></div>
+                        </div>
+                        <div class="sub4">
+                          <div class="october-2017"><%= cert.date %></div>
+                        </div>
+                      </div>
+                    </div>
+                    <% if (!noEditButton) { %>
+                        <div class="private-link">
+                          <div class="edit">
+                            <div class="edit2">Edit</div>
+                          </div>
+                        </div>
+                      <% } %>
+                  </div>
+                <% }) %>
+              <% } %>
+              
+
+            <% if (skills.length > 0) { %>
+              <div class="skills-title">
+                <div class="skills">Skills</div>
+              </div>
+              <div class="skills-list">
+                <% skills.forEach(skill => { %>
+                  <div class="list-1">
+                    <div class="text3">
+                      <div class="user-research"><%= skill %></div>
+                    </div>
+                  </div>
+                <% }) %>
+                <div class="list-32">
+                  <div class="text3">
+                    <div class="product-design">+ 3 more...</div>
+                  </div>
+                </div>
+              </div>
+            <% } %>
+
+            <% if (projects.length > 0) { %>
+                <div class="education-title">
+                    <div class="education">Projects</div>
+                  </div>
+                <% projects.forEach(project => { %>
+                  <div class="experience-grid-1">
+                    <div class="info2">
+                      <div class="default-logo">
+                        <div class="logo2">
+                          <img class="vector-02" src="/ProfileView/vector-01.svg" />
+                          <div class="depth-8-frame-0"></div>
+                        </div>
+                      </div>
+                      <div class="info3">
+                        <div class="header3">
+                          <div class="senior-product-designer"><%= project.title %></div>
+                        </div>
+                        <div class="sub">
+                          <div class="_2019-present-3-years"><%= project.date %></div>
+                        </div>
+                      </div>
+                    </div>
+                    <% if (!noEditButton) { %>
+                        <div class="private-link">
+                          <div class="edit">
+                            <div class="edit2">Edit</div>
+                          </div>
+                        </div>
+                      <% } %>
+                  </div>
+                <% }) %>
+              <% } %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

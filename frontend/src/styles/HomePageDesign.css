@@ -1,0 +1,737 @@
+.homepage-design,
+.homepage-design * {
+  box-sizing: border-box;
+}
+.homepage-design {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.create-profile-button {
+  background: #2194f2; /* Button color */
+  border: none; /* Remove default border */
+  border-radius: 12px; /* Rounded corners */
+  color: #f7fafc; /* Text color */
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  height: 48px; /* Match existing button height */
+  padding: 0 20px; /* Adjust padding */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background 0.3s; /* Smooth transition for background */
+}
+.get-started-button {
+  background: #2194f2; /* Button color */
+  border: none; /* Remove default border */
+  border-radius: 12px; /* Rounded corners */
+  color: #f7fafc; /* Text color */
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  height: 48px; /* Match existing button height */
+  padding: 0 20px; /* Adjust padding */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background 0.3s; /* Smooth transition for background */
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.noneefffect {
+  filter: grayscale(0%);
+}
+
+
+.get-started:hover {
+  background: #1a73e8; /* Darker shade on hover */
+}
+.get-started-button:hover {
+  background: #1a73e8; /* Darker shade on hover */
+}
+
+.create-profile-button:hover {
+  background: #1a73e8; /* Darker shade on hover */
+}
+
+.frame {
+  background: #f7fafc;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  min-height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.frame2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.header {
+  border-style: solid;
+  border-color: #e5e8eb;
+  border-width: 0px 0px 1px 0px;
+  padding: 12px 40px 12px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.logo {
+  flex: 1;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.vector-0 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.depth-6-frame-0 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.re-folio {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex: 1;
+  position: relative;
+}
+.link-area {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+}
+.explore {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.explore2 {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.auth-area {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.auth-area button {
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor to pointer */
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 0 16px; /* Adjust padding */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background 0.3s; /* Smooth transition for background */
+}
+
+.login-button {
+  background: #2194f2; /* Login button color */
+  color: #f7fafc; /* Text color */
+}
+
+.signup-button {
+  background: #e8edf5; /* Signup button color */
+  color: #0d141c; /* Text color */
+}
+
+.login-button:hover {
+  background: #1a73e8; /* Darker shade on hover */
+}
+
+.signup-button:hover {
+  background: #d1d9e6; /* Darker shade on hover */
+}
+
+.log-in {
+  color: #f7fafc;
+  text-align: center;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.signup-area {
+  background: #e8edf5;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 40px;
+  min-width: 84px;
+  max-width: 480px;
+  position: relative;
+  overflow: hidden;
+}
+.signup-button {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.sign-up {
+  color: #0d141c;
+  text-align: center;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.body {
+  padding: 20px 160px 20px 160px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.centered {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  max-width: 960px;
+  position: relative;
+  overflow: hidden;
+}
+.intro-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.intro {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.intro2 {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  border-radius: 12px;
+  padding: 0px 40px 40px 40px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 480px;
+  min-height: 480px;
+  position: relative;
+  overflow: hidden;
+}
+.intro-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 848px;
+  position: absolute;
+  left: 56px;
+  top: 224px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 120px;
+  position: relative;
+}
+.showcase-your-skills-and-experiences-with-re-folio {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Manrope-ExtraBold", sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2px;
+  font-weight: 800;
+  position: relative;
+  align-self: stretch;
+}
+.sub-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.create-a-stunning-resume-and-portfolio-that-stands-out-share-it-with-the-world-and-get-hired-faster {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.get-started {
+  background: #2194f2;
+  border-radius: 12px;
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  min-width: 84px;
+  max-width: 480px;
+  position: absolute;
+  left: 56px;
+  top: 408px;
+  overflow: hidden;
+}
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.get-started-text {
+  color: #f7fafc;
+  text-align: center;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.why {
+  padding: 40px 16px 40px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 720px;
+  height: 45px;
+  max-width: 720px;
+  position: relative;
+}
+.why-re-folio {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-ExtraBold", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  position: relative;
+  align-self: stretch;
+}
+.grid-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.grid-content {
+  display: flex;
+  flex-direction: row;
+  gap: 129px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.grid-2 {
+  padding: 0px 0px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 223px;
+  position: relative;
+}
+.image {
+  border-radius: 12px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 125px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.heading2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.case-studies {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.publish-beautiful-pages-for-your-most-ambitious-projects {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.grid-3 {
+  padding: 0px 0px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 223px;
+  position: relative;
+}
+.personal-profiles {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.a-personal-homepage-for-all-your-interests-and-accomplishments {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.grid-4 {
+  padding: 0px 0px 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 223px;
+  position: relative;
+}
+.search {
+  color: #0d141c;
+  text-align: left;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.generate-leads-by-filtering-by-location-experience-and-collaborators {
+  color: #4a789c;
+  text-align: left;
+  font-family: "Manrope-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.get-started2 {
+  padding: 80px 40px 80px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 884px;
+  position: relative;
+}
+.heading3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 720px;
+  height: 44px;
+  max-width: 720px;
+  position: relative;
+}
+.ready-to-get-started {
+  color: #0d141c;
+  text-align: center;
+  font-family: "Manrope-ExtraBold", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  position: relative;
+  width: 724px;
+  height: 51px;
+}
+.button-area {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.button-context {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  background: #2194f2;
+  border-radius: 12px;
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 48px;
+  min-width: 84px;
+  max-width: 480px;
+  position: relative;
+  overflow: hidden;
+}
+.text3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.create-a-free-profile {
+  color: #f7fafc;
+  text-align: center;
+  font-family: "Manrope-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
